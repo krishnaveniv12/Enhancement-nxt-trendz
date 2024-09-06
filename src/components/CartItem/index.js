@@ -39,7 +39,6 @@ const CartItem = props => (
               <button
                 type='button'
                 className='quantity-controller-button'
-                aria-label='Mute volume'
                 onClick={onDecrementCartItemQty}
                 data-testid='minus'
               >
@@ -49,7 +48,6 @@ const CartItem = props => (
               <button
                 type='button'
                 className='quantity-controller-button'
-                aria-label='Mute volume'
                 onClick={onIncrementCartItemQty}
                 data-testid='plus'
               >
@@ -70,7 +68,6 @@ const CartItem = props => (
           <button
             className='delete-button'
             type='button'
-            aria-label='Mute volume' // Check this
             onClick={onRemoveCartItem}
             data-testid='remove'
           >
